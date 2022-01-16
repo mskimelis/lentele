@@ -1,0 +1,47 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+th, td {
+padding: 20px;
+color: white;
+text-align: left;
+border: 1px solid orange;
+}
+
+table:nth-of-type(1)
+th {
+background: #ffc40c;
+color: black;
+text-align: center;
+}
+
+table {
+background: #191970;
+color: white;
+border-collapse: collapse;
+width: 60%;
+}
+
+input {
+  width: 30%;
+  margin: 4px;
+}
+
+button {
+  width: 30%;
+  margin: 4px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}

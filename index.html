@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Input</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Append table</h1><br>
+    <div id="names" class="names"></div>
+    <div class="inputs">
+    <input id="inputValue1" type="text" placeholder="vardas">
+    <input id="inputValue2" type="text" placeholder="pavardė">
+    <input id="inputValue3" type="number" placeholder="amžius">
+    </div>
+
+    <div class="buttons">
+      <button onclick="myCreateFunction()">Pridėti</button>
+      <button onclick="myDeleteFunction()">Ištrinti pirmą</button>
+      <button onclick="myDeleteFunction2()">Ištrinti paskutinį</button>
+    </div>
+
+    <script src="script.js"></script>
+    <table id="Lentele">
+      <thead>
+        <tr>
+          <th>VARDAS</th>
+          <th style="background: #DAA520">PAVARDĖ</th>
+          <th>AMŽIUS</th>
+          </tr>
+      </thead>
+      <tbody id="removeRow">
+        <tr>
+          <td>Jonas</td>
+          <td>Rimkus</td>
+          <td>54</td>
+        </tr>
+
+        <tr>
+          <td>Vestina</td>
+          <td>Petronytė</td>
+          <td>31</td>
+        </tr>
+
+        <tr>
+          <td>Marius</td>
+          <td>Dulinskas</td>
+          <td>23</td>
+        </tr>
+      </tbody>
+</table>
+
+  </body>
+</html>
